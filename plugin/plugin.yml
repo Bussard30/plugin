@@ -1,0 +1,51 @@
+main: de.bussard30.main.Main
+name: Plugin
+version: 1.0
+description: Custom plugin written by Bussard30
+api-version: 1.16
+author: Bussard30
+website: www.cancersquad.dyn.ddnss.de
+depend: [NPCLibPlugin]
+
+
+commands:
+  home:
+    description: Teleports you to your home.
+    usage: /home <homeName>
+  homes:
+    description: Lists your homes.
+    usage: /homes
+  sethome:
+    description: Creates a new home on your current position.
+    usage: /sethome <homeName>
+  delhome:
+    description: Deletes home.
+    usage: /delhome <homeName>
+  shop:
+    description: Opens shop.
+    usage: /shop
+  spin:
+    description: Opens menu to buy/use a spin.
+    usage: /spin
+  money:
+    description: Shows your current money.
+    usage: /money
+  npc:
+    description: Used to create npcs.
+    usage: /npc <Name>
+  quest:
+    description: Used to create quests. Guides you through process.
+    usage: /quest create
+  spawn:
+    description: Teleports you to spawn.
+    usage: /spawn
+  tpa:
+    description: Send teleport request to another player
+    usage: /tpa <user>
+  tpaccept:
+    description: Accepts teleport request from another player
+    usage: /tpaccept
+  tpadeny:
+    description: Rejects teleport request from another player
+    usage: /tpadeny
+  
